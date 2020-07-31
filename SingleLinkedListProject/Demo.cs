@@ -28,7 +28,8 @@ namespace SingleLinkedListProject
                 Console.WriteLine("12.Reverse the list");
                 Console.WriteLine("13.Bubble sort by exchanging data");
                 Console.WriteLine("14.Bubble sort by exchanging links");
-                Console.WriteLine("15.Quit");
+                Console.WriteLine("15.Merging with two lists");
+                Console.WriteLine("16.Quit");
 
                 Console.Write("Enter your choice:");
                 choice = Convert.ToInt32(Console.ReadLine());
@@ -96,6 +97,9 @@ namespace SingleLinkedListProject
                         break;
                     case 14:
                         list.BubbleSortExcByLinks();
+                        break;
+                    case 15:
+                        list.MergeSort();
                         break;
                     default:
                         Console.WriteLine("Wrong Choice");
