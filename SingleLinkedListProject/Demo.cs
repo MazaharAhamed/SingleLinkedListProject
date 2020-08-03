@@ -101,6 +101,9 @@ namespace SingleLinkedListProject
                     case 15:
                         list.MergeSort();
                         break;
+                    case 16:
+                        list.DoublyLinkedList();
+                        break;
                     default:
                         Console.WriteLine("Wrong Choice");
                         break;
